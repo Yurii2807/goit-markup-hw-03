@@ -144,6 +144,7 @@ img {
 
 .section-two {
     background: #FFF;
+    padding: 120px 0;
 }
 .visually-hidden {
     position: absolute;
@@ -157,6 +158,14 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.header-item {
+    display: flex;
+    gap: 24px;
+}
+.header-item-element {
+    width: calc((100% - 72px) / 4);
+}
+
 
 .header-info {
     color: #2E2F42;
@@ -166,8 +175,7 @@ img {
         letter-spacing: 0.02em;
         flex-direction: row;
         gap: 24px;
-
-    
+        margin-bottom: 8px;   
 }
 
 .option-par {
