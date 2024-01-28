@@ -212,10 +212,7 @@ img {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
-.team-mark,
-.team-tom,
-.team-camila, 
-.team-daniel {
+.team-mark {
     padding: 32px 0;
 } 
 
@@ -236,6 +233,18 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
 }
+.team-tom {
+    padding: 32px 0;
+}  
+
+.team-camila {
+    padding: 32px 0;
+}
+
+.team-daniel {
+    padding: 32px 0;
+}
+
 
 .section-four {
     padding: 120px 0 120px 0;
